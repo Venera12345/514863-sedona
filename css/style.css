@@ -297,10 +297,10 @@ body{
   font-weight: normal;
 }
 .img-advantage-first,
- .img-advantage-second {
+.img-advantage-second {
   width: calc(100%/3*2);
 
-  background-image: url("../img/layer3.jpg");
+  background-image: url("../img/bridge.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -308,7 +308,7 @@ body{
 }
 .img-advantage-first {
   background-color: #6d99c0;
-  background-image: url("../img/layer2.jpg");
+  background-image: url("../img/city.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -808,7 +808,7 @@ body{
 }
 .filter {
   background-color: #6d99c0;
-  background-image: url("../img/filter background.png");
+  background-image: url("../img/filter-background.png");
 }
 .filter .filter-form {
   padding-top: 27px;
@@ -844,6 +844,7 @@ body{
 }
 .infrastructure label,
 .type-of-housing label {
+  display: block;
   position: relative;
   margin-bottom: 21px;
 
@@ -868,6 +869,7 @@ body{
   height: 20px;
   margin-right: 14px;
   border: 2px solid #fff;
+  cursor: pointer;
 }
 .infrastructure input[type="checkbox"]:checked + label::after,
 .type-of-housing input[type="checkbox"]:checked + label::after {
@@ -1277,7 +1279,7 @@ body{
 
   vertical-align: middle;
 
-  background-image: url("../img/star .svg");
+  background-image: url("../img/star.svg");
   background-repeat: no-repeat;
 }
 .hotels .text-rating {
