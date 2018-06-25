@@ -16,7 +16,7 @@
           <li class="item-menu"><a href="#" class="link-item-menu">Информация</a></li>
           <li class="item-menu"><a href="#" class="link-item-menu">Фото и видео</a></li>
           <li class="item-menu"><a href="#" class="link-item-menu">Карта штата</a></li>
-          <li class="item-menu"><a href="hotels.html" class="link-item-menu">Гостиницы</a></li>
+          <li class="item-menu"><a href="hotels.html" class="link-item-menu-current">Гостиницы</a></li>
         </ul>
         <a class="linck-logo" href="index.html">
           <img src="img/logo-min.png" alt="логотип" class="logo" width="138" height="70">
@@ -27,24 +27,24 @@
       <section class="filter">
         <h2 class="visually-hidden">Фильтер</h2>
         <form action="#" class="filter-form row">
-          <figure class="infrastructure">
-            <figcaption class="infrastructure-name">Инфраструктура:</figcaption>
+          <fieldset class="infrastructure">
+            <legend class="infrastructure-name">Инфраструктура:</legend>
             <input type="checkbox" name="pool" checked id="pool">
             <label for="pool" class="pool">Бассейн</label>
             <input type="checkbox" name="parking" id="parking">
             <label for="parking" class="parking">Парковка</label>
             <input type="checkbox" name="wi-fi" id="wi-fi">
             <label for="wi-fi" class="wi-fi">Wi-fi</label>
-          </figure>
-          <figure class="type-of-housing">
-            <figcaption class="type-of-housing-name">Тип жилья:</figcaption>
+          </fieldset>
+          <fieldset class="type-of-housing">
+            <legend class="type-of-housing-name">Тип жилья:</legend>
             <input type="checkbox" name="hotel" checked id="hotel">
             <label for="hotel" class="hotel">Гостиница</label>
             <input type="checkbox" name="motel" id="motel" checked>
             <label for="motel" class="motel">мотель</label>
             <input type="checkbox" name="apartment" id="apartment" checked>
             <label for="apartment" class="apartment">апартаменты</label>
-          </figure>
+          </fieldset>
           <div class="cost">
             <span class="name-cost">Стоимость в сутки (Р):</span>
             <p class="border-container">
@@ -59,7 +59,7 @@
               <span class="track"></span>
               <span class="track-active"></span>
             </p>
-            <button type="button" class="filter-btn">ПОКАЗАТЬ</button>
+            <button type="button" class="filter-btn">Показать</button>
           </div>
         </form>
       </section>
@@ -67,12 +67,12 @@
         <h2 class="visually-hidden">Сортировка товара по убыванию или возрастанию</h2>
         <p class="blog-name-sorting">
           <span class="number-of-found">Найдено: 3</span>
-          <span class="name-sorting">СОРТИРОВКА:</span>
+          <span class="name-sorting">Сортировка:</span>
         </p>
         <p class="blog-link-sorting">
-          <a href="#" class="sorting-link-price active">ПО ЦЕНЕ</a>
-          <a href="#" class="sorting-link-type">ПО ТИПУ</a>
-          <a href="#" class="sorting-link-rating">ПО РЕЙТИНГУ</a>
+          <a href="#" class="sorting-link-price active">По цене</a>
+          <a href="#" class="sorting-link-type">По типу</a>
+          <a href="#" class="sorting-link-rating">По рейтингу</a>
         </p>
         <p class="blog-point-sorting">
           <a href="#" class="point-increase"></a>
@@ -84,7 +84,7 @@
         <ul class="list-hotels">
           <li class="item-hotel">
             <article class="hotel row">
-              <img src="img/Layer21.jpg" alt="фото Amara Resort & Spa" class="img-hotel" width="135" height="90">
+              <img src="img/layer21.jpg" alt="фото Amara Resort & Spa" class="img-hotel" width="135" height="90">
               <div class="description-hotel">
                 <a href="#" class="linck-name-hotel"><h3 class="name-hotel">Amara Resort & Spa</h3></a>
                 <p class="characteristic-hotel">
@@ -110,7 +110,7 @@
           </li>
           <li class="item-hotel">
             <article class="hotel row">
-              <img src="img/Layer22.jpg" alt="фото Desert Quail Inn" class="img-hotel" width="135" height="90">
+              <img src="img/layer22.jpg" alt="фото Desert Quail Inn" class="img-hotel" width="135" height="90">
               <div class="description-hotel">
                 <a href="#" class="linck-name-hotel"><h3 class="name-hotel">Desert Quail Inn</h3></a>
                 <p class="characteristic-hotel">
@@ -134,7 +134,7 @@
           </li>
           <li class="item-hotel">
             <article class="hotel row">
-              <img src="img/Layer23.jpg" alt="фото Villas at Poco Diablo" class="img-hotel" width="135" height="90">
+              <img src="img/layer23.jpg" alt="фото Villas at Poco Diablo" class="img-hotel" width="135" height="90">
               <div class="description-hotel">
                 <a href="#" class="linck-name-hotel"><h3 class="name-hotel">Villas at Poco Diablo</h3></a>
                 <p class="characteristic-hotel">
@@ -160,7 +160,7 @@
     </main>
     <footer class="footer footer-fix">
       <p class="visit">
-        <span>#visitSEDONA</span>
+        <span>#visitsedona</span>
       </p>
       <ul class="list-social">
         <li class="item-social tweeter">
@@ -174,7 +174,7 @@
         </li>
       </ul>
       <div class="copyright">
-        <span class="description-copyright">WEBSITE by</span>
+        <span class="description-copyright">website by</span>
         <a href="https://htmlacademy.ru/" class="linck-copyright">
           <svg data-name="Layer-1" viewBox="0 0 113 39">
           <path d="M401.93,351.51a2.07,2.07,0,0,0,.58-0.11v1.4a3.41,3.41,0,0,1-1.24.22,1.75,1.75,0,0,1-1.75-1,5.08,5.08,0,0,1-3.3,1.13c-1.59,0-3.06-.87-3.06-2.68,0-2.24,2.08-2.93,3.9-2.93a11.63,11.63,0,0,1,2.28.26v-0.31c0-1.09-.8-1.86-2.3-1.86a7.79,7.79,0,0,0-3.15.67v-1.79a10.72,10.72,0,0,1,3.35-.58c2.48,0,4,1.18,4,3.83v3.14A0.57,0.57,0,0,0,401.93,351.51Zm-6.76-1.19a1.42,1.42,0,0,0,1.64,1.29,3.56,3.56,0,0,0,2.53-1V349.1a10.21,10.21,0,0,0-1.9-.22C396.34,348.89,395.17,349.23,395.17,350.33Z" transform="translate(-355.09 -323.29)" fill="#fff"/>
